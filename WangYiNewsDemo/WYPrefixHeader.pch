@@ -1,0 +1,26 @@
+//
+//  WYPrefixHeader.pch
+//  WangYiNewsDemo
+//
+//  Created by 鄂鸿桢 on 16/2/18.
+//  Copyright © 2016年 ehongzhen. All rights reserved.
+//
+
+#ifndef WYPrefixHeader_pch
+#define WYPrefixHeader_pch
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+
+// 颜色
+#define WYColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define WYColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+// 随机色
+#define WYRandomColor WYColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#endif

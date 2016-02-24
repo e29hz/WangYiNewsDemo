@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4FE5C6E1C75C3EF001E5F88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5C6D1C75C3EF001E5F88 /* main.m */; };
-		E4FE5C711C75C3EF001E5F88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5C701C75C3EF001E5F88 /* AppDelegate.m */; };
-		E4FE5C741C75C3EF001E5F88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5C731C75C3EF001E5F88 /* ViewController.m */; };
+		E4710FA51C7D73F2003BEBEA /* WYRightBottomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E4710FA41C7D73F2003BEBEA /* WYRightBottomButton.m */; };
+		E4C9C6451C76F1B20044EC8C /* WYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C9C6441C76F1B20044EC8C /* WYNavigationController.m */; };
+		E4C9C64B1C78A1BF0044EC8C /* WYNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C9C64A1C78A1BF0044EC8C /* WYNewsViewController.m */; };
+		E4C9C64E1C78A3580044EC8C /* WYTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C9C64D1C78A3580044EC8C /* WYTitleView.m */; };
+		E4C9C6511C7AAF750044EC8C /* WYReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C9C6501C7AAF750044EC8C /* WYReadingViewController.m */; };
+		E4C9C6541C7C07DD0044EC8C /* WYLeftMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C9C6531C7C07DD0044EC8C /* WYLeftMenuButton.m */; };
+		E4C9C6571C7C0B000044EC8C /* WYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C9C6561C7C0B000044EC8C /* WYNavigationBar.m */; };
+		E4C9C65E1C7C95000044EC8C /* WYRightMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C9C65C1C7C95000044EC8C /* WYRightMenuController.m */; };
+		E4C9C65F1C7C95000044EC8C /* WYRightMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4C9C65D1C7C95000044EC8C /* WYRightMenuController.xib */; };
+		E4C9C6611C7C9C6C0044EC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C9C6601C7C9C6C0044EC8C /* Assets.xcassets */; };
+		E4C9C66A1C7D67830044EC8C /* WYRightMenuCenterRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C9C6691C7D67830044EC8C /* WYRightMenuCenterRowView.m */; };
+		E4C9C66C1C7D679A0044EC8C /* WYRightMenuCenterRowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4C9C66B1C7D679A0044EC8C /* WYRightMenuCenterRowView.xib */; };
 		E4FE5C771C75C3EF001E5F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FE5C751C75C3EF001E5F88 /* Main.storyboard */; };
-		E4FE5C791C75C3EF001E5F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FE5C781C75C3EF001E5F88 /* Assets.xcassets */; };
 		E4FE5C7C1C75C3EF001E5F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FE5C7A1C75C3EF001E5F88 /* LaunchScreen.storyboard */; };
 		E4FE5C871C75C3EF001E5F88 /* WangYiNewsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5C861C75C3EF001E5F88 /* WangYiNewsDemoTests.m */; };
 		E4FE5C921C75C3EF001E5F88 /* WangYiNewsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5C911C75C3EF001E5F88 /* WangYiNewsDemoUITests.m */; };
+		E4FE5CBE1C75D099001E5F88 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5CAF1C75D099001E5F88 /* UIBarButtonItem+Extension.m */; };
+		E4FE5CBF1C75D099001E5F88 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5CB11C75D099001E5F88 /* UIImage+Extension.m */; };
+		E4FE5CC01C75D099001E5F88 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5CB31C75D099001E5F88 /* UIView+Extension.m */; };
+		E4FE5CC11C75D099001E5F88 /* WYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5CB61C75D099001E5F88 /* WYMainViewController.m */; };
+		E4FE5CC21C75D099001E5F88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5CB91C75D099001E5F88 /* AppDelegate.m */; };
+		E4FE5CC31C75D099001E5F88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5CBA1C75D099001E5F88 /* main.m */; };
+		E4FE5CC41C75D099001E5F88 /* WYLeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FE5CBD1C75D099001E5F88 /* WYLeftMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +50,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4710FA31C7D73F2003BEBEA /* WYRightBottomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYRightBottomButton.h; sourceTree = "<group>"; };
+		E4710FA41C7D73F2003BEBEA /* WYRightBottomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYRightBottomButton.m; sourceTree = "<group>"; };
+		E4C9C6431C76F1B20044EC8C /* WYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNavigationController.h; sourceTree = "<group>"; };
+		E4C9C6441C76F1B20044EC8C /* WYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNavigationController.m; sourceTree = "<group>"; };
+		E4C9C6491C78A1BF0044EC8C /* WYNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNewsViewController.h; sourceTree = "<group>"; };
+		E4C9C64A1C78A1BF0044EC8C /* WYNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNewsViewController.m; sourceTree = "<group>"; };
+		E4C9C64C1C78A3580044EC8C /* WYTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTitleView.h; sourceTree = "<group>"; };
+		E4C9C64D1C78A3580044EC8C /* WYTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTitleView.m; sourceTree = "<group>"; };
+		E4C9C64F1C7AAF750044EC8C /* WYReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYReadingViewController.h; sourceTree = "<group>"; };
+		E4C9C6501C7AAF750044EC8C /* WYReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYReadingViewController.m; sourceTree = "<group>"; };
+		E4C9C6521C7C07DD0044EC8C /* WYLeftMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLeftMenuButton.h; sourceTree = "<group>"; };
+		E4C9C6531C7C07DD0044EC8C /* WYLeftMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLeftMenuButton.m; sourceTree = "<group>"; };
+		E4C9C6551C7C0B000044EC8C /* WYNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNavigationBar.h; sourceTree = "<group>"; };
+		E4C9C6561C7C0B000044EC8C /* WYNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNavigationBar.m; sourceTree = "<group>"; };
+		E4C9C65B1C7C95000044EC8C /* WYRightMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYRightMenuController.h; sourceTree = "<group>"; };
+		E4C9C65C1C7C95000044EC8C /* WYRightMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYRightMenuController.m; sourceTree = "<group>"; };
+		E4C9C65D1C7C95000044EC8C /* WYRightMenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYRightMenuController.xib; sourceTree = "<group>"; };
+		E4C9C6601C7C9C6C0044EC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4C9C6681C7D67830044EC8C /* WYRightMenuCenterRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYRightMenuCenterRowView.h; sourceTree = "<group>"; };
+		E4C9C6691C7D67830044EC8C /* WYRightMenuCenterRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYRightMenuCenterRowView.m; sourceTree = "<group>"; };
+		E4C9C66B1C7D679A0044EC8C /* WYRightMenuCenterRowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYRightMenuCenterRowView.xib; sourceTree = "<group>"; };
 		E4FE5C691C75C3EF001E5F88 /* WangYiNewsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangYiNewsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4FE5C6D1C75C3EF001E5F88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E4FE5C6F1C75C3EF001E5F88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E4FE5C701C75C3EF001E5F88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4FE5C721C75C3EF001E5F88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4FE5C731C75C3EF001E5F88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E4FE5C761C75C3EF001E5F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E4FE5C781C75C3EF001E5F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4FE5C7B1C75C3EF001E5F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4FE5C7D1C75C3EF001E5F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4FE5C821C75C3EF001E5F88 /* WangYiNewsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangYiNewsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +81,20 @@
 		E4FE5C8D1C75C3EF001E5F88 /* WangYiNewsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangYiNewsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FE5C911C75C3EF001E5F88 /* WangYiNewsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangYiNewsDemoUITests.m; sourceTree = "<group>"; };
 		E4FE5C931C75C3EF001E5F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FE5CAB1C75CB86001E5F88 /* WYPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPrefixHeader.pch; sourceTree = "<group>"; };
+		E4FE5CAE1C75D099001E5F88 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		E4FE5CAF1C75D099001E5F88 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		E4FE5CB01C75D099001E5F88 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		E4FE5CB11C75D099001E5F88 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		E4FE5CB21C75D099001E5F88 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E4FE5CB31C75D099001E5F88 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E4FE5CB51C75D099001E5F88 /* WYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMainViewController.h; sourceTree = "<group>"; };
+		E4FE5CB61C75D099001E5F88 /* WYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMainViewController.m; sourceTree = "<group>"; };
+		E4FE5CB81C75D099001E5F88 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4FE5CB91C75D099001E5F88 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4FE5CBA1C75D099001E5F88 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4FE5CBC1C75D099001E5F88 /* WYLeftMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLeftMenu.h; sourceTree = "<group>"; };
+		E4FE5CBD1C75D099001E5F88 /* WYLeftMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLeftMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +145,7 @@
 		E4FE5C6B1C75C3EF001E5F88 /* WangYiNewsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E4FE5C6F1C75C3EF001E5F88 /* AppDelegate.h */,
-				E4FE5C701C75C3EF001E5F88 /* AppDelegate.m */,
-				E4FE5C721C75C3EF001E5F88 /* ViewController.h */,
-				E4FE5C731C75C3EF001E5F88 /* ViewController.m */,
-				E4FE5C751C75C3EF001E5F88 /* Main.storyboard */,
-				E4FE5C781C75C3EF001E5F88 /* Assets.xcassets */,
-				E4FE5C7A1C75C3EF001E5F88 /* LaunchScreen.storyboard */,
-				E4FE5C7D1C75C3EF001E5F88 /* Info.plist */,
+				E4FE5CAC1C75D099001E5F88 /* Classes */,
 				E4FE5C6C1C75C3EF001E5F88 /* Supporting Files */,
 			);
 			path = WangYiNewsDemo;
@@ -117,7 +154,11 @@
 		E4FE5C6C1C75C3EF001E5F88 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E4FE5C6D1C75C3EF001E5F88 /* main.m */,
+				E4C9C6601C7C9C6C0044EC8C /* Assets.xcassets */,
+				E4FE5C751C75C3EF001E5F88 /* Main.storyboard */,
+				E4FE5C7A1C75C3EF001E5F88 /* LaunchScreen.storyboard */,
+				E4FE5C7D1C75C3EF001E5F88 /* Info.plist */,
+				E4FE5CAB1C75CB86001E5F88 /* WYPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +179,78 @@
 				E4FE5C931C75C3EF001E5F88 /* Info.plist */,
 			);
 			path = WangYiNewsDemoUITests;
+			sourceTree = "<group>";
+		};
+		E4FE5CAC1C75D099001E5F88 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E4FE5CAD1C75D099001E5F88 /* Category */,
+				E4FE5CB41C75D099001E5F88 /* Controller */,
+				E4FE5CBB1C75D099001E5F88 /* View */,
+				E4FE5CB71C75D099001E5F88 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E4FE5CAD1C75D099001E5F88 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E4FE5CAE1C75D099001E5F88 /* UIBarButtonItem+Extension.h */,
+				E4FE5CAF1C75D099001E5F88 /* UIBarButtonItem+Extension.m */,
+				E4FE5CB01C75D099001E5F88 /* UIImage+Extension.h */,
+				E4FE5CB11C75D099001E5F88 /* UIImage+Extension.m */,
+				E4FE5CB21C75D099001E5F88 /* UIView+Extension.h */,
+				E4FE5CB31C75D099001E5F88 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E4FE5CB41C75D099001E5F88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4FE5CB51C75D099001E5F88 /* WYMainViewController.h */,
+				E4FE5CB61C75D099001E5F88 /* WYMainViewController.m */,
+				E4C9C6431C76F1B20044EC8C /* WYNavigationController.h */,
+				E4C9C6441C76F1B20044EC8C /* WYNavigationController.m */,
+				E4C9C6491C78A1BF0044EC8C /* WYNewsViewController.h */,
+				E4C9C64A1C78A1BF0044EC8C /* WYNewsViewController.m */,
+				E4C9C64F1C7AAF750044EC8C /* WYReadingViewController.h */,
+				E4C9C6501C7AAF750044EC8C /* WYReadingViewController.m */,
+				E4C9C65B1C7C95000044EC8C /* WYRightMenuController.h */,
+				E4C9C65C1C7C95000044EC8C /* WYRightMenuController.m */,
+				E4C9C65D1C7C95000044EC8C /* WYRightMenuController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4FE5CB71C75D099001E5F88 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E4FE5CB81C75D099001E5F88 /* AppDelegate.h */,
+				E4FE5CB91C75D099001E5F88 /* AppDelegate.m */,
+				E4FE5CBA1C75D099001E5F88 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E4FE5CBB1C75D099001E5F88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4FE5CBC1C75D099001E5F88 /* WYLeftMenu.h */,
+				E4FE5CBD1C75D099001E5F88 /* WYLeftMenu.m */,
+				E4C9C64C1C78A3580044EC8C /* WYTitleView.h */,
+				E4C9C64D1C78A3580044EC8C /* WYTitleView.m */,
+				E4C9C6521C7C07DD0044EC8C /* WYLeftMenuButton.h */,
+				E4C9C6531C7C07DD0044EC8C /* WYLeftMenuButton.m */,
+				E4C9C6551C7C0B000044EC8C /* WYNavigationBar.h */,
+				E4C9C6561C7C0B000044EC8C /* WYNavigationBar.m */,
+				E4C9C6681C7D67830044EC8C /* WYRightMenuCenterRowView.h */,
+				E4C9C6691C7D67830044EC8C /* WYRightMenuCenterRowView.m */,
+				E4C9C66B1C7D679A0044EC8C /* WYRightMenuCenterRowView.xib */,
+				E4710FA31C7D73F2003BEBEA /* WYRightBottomButton.h */,
+				E4710FA41C7D73F2003BEBEA /* WYRightBottomButton.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +315,7 @@
 		E4FE5C611C75C3EF001E5F88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WY;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ehongzhen;
 				TargetAttributes = {
@@ -247,7 +361,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4FE5C7C1C75C3EF001E5F88 /* LaunchScreen.storyboard in Resources */,
-				E4FE5C791C75C3EF001E5F88 /* Assets.xcassets in Resources */,
+				E4C9C66C1C7D679A0044EC8C /* WYRightMenuCenterRowView.xib in Resources */,
+				E4C9C65F1C7C95000044EC8C /* WYRightMenuController.xib in Resources */,
+				E4C9C6611C7C9C6C0044EC8C /* Assets.xcassets in Resources */,
 				E4FE5C771C75C3EF001E5F88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4FE5C741C75C3EF001E5F88 /* ViewController.m in Sources */,
-				E4FE5C711C75C3EF001E5F88 /* AppDelegate.m in Sources */,
-				E4FE5C6E1C75C3EF001E5F88 /* main.m in Sources */,
+				E4FE5CC01C75D099001E5F88 /* UIView+Extension.m in Sources */,
+				E4C9C6541C7C07DD0044EC8C /* WYLeftMenuButton.m in Sources */,
+				E4FE5CC11C75D099001E5F88 /* WYMainViewController.m in Sources */,
+				E4FE5CBE1C75D099001E5F88 /* UIBarButtonItem+Extension.m in Sources */,
+				E4FE5CC41C75D099001E5F88 /* WYLeftMenu.m in Sources */,
+				E4FE5CBF1C75D099001E5F88 /* UIImage+Extension.m in Sources */,
+				E4C9C6571C7C0B000044EC8C /* WYNavigationBar.m in Sources */,
+				E4C9C65E1C7C95000044EC8C /* WYRightMenuController.m in Sources */,
+				E4C9C6511C7AAF750044EC8C /* WYReadingViewController.m in Sources */,
+				E4C9C66A1C7D67830044EC8C /* WYRightMenuCenterRowView.m in Sources */,
+				E4C9C64E1C78A3580044EC8C /* WYTitleView.m in Sources */,
+				E4FE5CC31C75D099001E5F88 /* main.m in Sources */,
+				E4C9C64B1C78A1BF0044EC8C /* WYNewsViewController.m in Sources */,
+				E4FE5CC21C75D099001E5F88 /* AppDelegate.m in Sources */,
+				E4C9C6451C76F1B20044EC8C /* WYNavigationController.m in Sources */,
+				E4710FA51C7D73F2003BEBEA /* WYRightBottomButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +543,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/ehongzhen/Documents/WangYiNewsDemo/WangYiNewsDemo/WYPrefixHeader.pch;
 				INFOPLIST_FILE = WangYiNewsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ehongzhen.WangYiNewsDemo;
@@ -425,6 +556,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/ehongzhen/Documents/WangYiNewsDemo/WangYiNewsDemo/WYPrefixHeader.pch;
 				INFOPLIST_FILE = WangYiNewsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ehongzhen.WangYiNewsDemo;
@@ -499,6 +632,7 @@
 				E4FE5C981C75C3EF001E5F88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4FE5C991C75C3EF001E5F88 /* Build configuration list for PBXNativeTarget "WangYiNewsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +641,7 @@
 				E4FE5C9B1C75C3EF001E5F88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4FE5C9C1C75C3EF001E5F88 /* Build configuration list for PBXNativeTarget "WangYiNewsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +650,7 @@
 				E4FE5C9E1C75C3EF001E5F88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
