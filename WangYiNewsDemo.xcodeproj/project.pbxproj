@@ -544,7 +544,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = /Users/ehongzhen/Documents/WangYiNewsDemo/WangYiNewsDemo/WYPrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WangYiNewsDemo/WYPrefixHeader.pch";
 				INFOPLIST_FILE = WangYiNewsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ehongzhen.WangYiNewsDemo;
@@ -557,7 +557,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = /Users/ehongzhen/Documents/WangYiNewsDemo/WangYiNewsDemo/WYPrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WangYiNewsDemo/WYPrefixHeader.pch";
 				INFOPLIST_FILE = WangYiNewsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ehongzhen.WangYiNewsDemo;
